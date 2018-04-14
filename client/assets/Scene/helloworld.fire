@@ -45,7 +45,7 @@
     "_globalZOrder": 0,
     "_opacityModifyRGB": false,
     "groupIndex": 0,
-    "autoReleaseAssets": false
+    "autoReleaseAssets": true
   },
   {
     "__type__": "cc.Node",
@@ -388,7 +388,7 @@
     "_fitHeight": true
   },
   {
-    "__type__": "1c44dR7ftFBAbFkF/tlh6Ur",
+    "__type__": "de465PTUoRGppz4bHEJeF4j",
     "_name": "",
     "_objFlags": 0,
     "node": {
