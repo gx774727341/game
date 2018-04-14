@@ -44,13 +44,13 @@ cc.Class({
         }
         else{
             require('socket.io');
-            // var socket = io('http://localhost:3000');
-
-            // socket.on('connected123', function(msg){
-            //     console.log(msg);
-            //     self.label.string = msg;
-            // });
         }
+        var socket = io('http://localhost:3000');
+
+        socket.on('connected123', function(msg){
+            console.log(msg);
+            self.label.string = msg;
+        });
       
         self.label.string = 'hello world';
 
